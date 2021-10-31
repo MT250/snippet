@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>SerializeField</Title>
+			<Shortcut>sf</Shortcut>
+			<Description>Code snippet for SerializeField attribute.</Description>
+        </Header>
+        <Snippet>
+            <Code Language="csharp">
+				<![CDATA[[SerializeField] $AccessMod$ $DataType$ $Name$;]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>DataType</ID>
+					<Default>DataType</Default>
+				</Literal>
+				<Literal>
+					<ID>Name</ID>
+					<Default>Name</Default>
+				</Literal>
+				<Literal>
+					<ID>AccessMod</ID>
+					<Default>private</Default>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
